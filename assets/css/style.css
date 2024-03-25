@@ -1350,13 +1350,21 @@ About CSS
     position: relative;
 }
 
-.about-image .about-img1 {
+/* .about-image .about-img1 {
     position: relative;
     right: -10px;
     top: -40px;
     
 }
-
+ */
+/* start of style update for innovanza logo the above is the prv style  */
+.about-image .about-img1 {
+    position: relative;
+    right: -100px;
+    top: 100px;
+    
+}
+/*end of style update for innovanza logo  */
 .about-image .about-img2 {
     position: absolute;
     left: 140px;
