@@ -26,6 +26,8 @@
     <div id="wrapper">
         <div id="preload" class="preload">
             <div class="spin"></div>
+            <my-header>
+                <div id="header"></div>
         </div>
 
         <!-- BEGIN SITE MAIN -->
@@ -550,16 +552,55 @@
         <!-- END POPUP -->
     </div>
 
-    <!-- jQuery -->
-    <script src="assets/js/jquery-1.12.4.js"></script>
-    <script src="assets/libs/bootstrap/js/bootstrap.min.js"></script>
-    <script src="assets/libs/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/libs/waypoints/jquery.waypoints.min.js"></script>
-    <script src="assets/libs/counter/jquery.counterup.min.js"></script>
-    <script src="assets/libs/wowjs/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
-</body>
+    <!-- Start Footer Area -->
+ <my-footer ></my-footer>
+ <!-- End Footer Area -->
 
+ <!-- JQuery Min JS -->
+ <script src="assets/js/jquery.min.js"></script>
+ <!-- Bootstrap Min JS -->
+ <script src="assets/js/bootstrap.bundle.min.js"></script>
+ <!-- MeanMenu JS -->
+ <script src="assets/js/jquery.meanmenu.js"></script>
+ <!-- WoW Min JS -->
+ <script src="assets/js/wow.min.js"></script>
+ <!-- Magnific Popup Min JS -->
+ <script src="assets/js/jquery.magnific-popup.min.js"></script>
+ <!-- Fancybox Min JS -->
+ <script src="assets/js/fancybox.min.js"></script>
+ <!-- Appear Min JS -->
+ <script src="assets/js/jquery.appear.min.js"></script>
+ <!-- Odometer Min JS -->
+ <script src="assets/js/odometer.min.js"></script>
+ <!-- Owl Carousel Min JS -->
+ <script src="assets/js/owl.carousel.min.js"></script>
+ <!-- AjaxChimp JS -->
+ <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+ <!-- Form Validator Min JS -->
+ <script src="assets/js/form-validator.min.js"></script>
+ <!-- Contact Form Min JS -->
+ <script src="assets/js/contact-form-script.js"></script>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="../lib/wow/wow.min.js"></script>
+  <script src="../lib/easing/easing.min.js"></script>
+  <script src="../lib/waypoints/waypoints.min.js"></script>
+  <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="../lib/parallax/parallax.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="assets/js/main.js"></script>
+  <!-- <script src="../js/counter.js"></script> -->
+  <script src="assets/js/main.js"></script>
+ <div id="footer"></div>
+    </body>
+    <script>  
+        $(function(){ 
+          $("#header").load("header.html");  
+          $("#footer").load("footer.html");  
+        }); 
+       </script> 
 
 </html>
-s
