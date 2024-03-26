@@ -39,9 +39,9 @@ img {
 
 p {
     line-height: 1.9;
-    color: #707070;
+    color: #f9f4f4;
     margin-bottom: 15px;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 p:last-child {
@@ -61,7 +61,7 @@ h4,
 h5,
 h6 {
     font-weight: 700;
-    color: #0d1028;
+    color: #fefefe;
 }
 
 /*btn btn-primary*/
