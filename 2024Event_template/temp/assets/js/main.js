@@ -13,7 +13,14 @@ var SALA = SALA || {};
 			rect.left <= (window.innerWidth || document.documentElement.clientWidth)
 		)
 	}
-
+    $(window).on('scroll', function() {
+        if ($(this).scrollTop() > 120) {
+            $('.elkevent-nav').addClass("is-sticky");
+        } else {
+            $('.elkevent-nav').removeClass("is-sticky");
+        }
+    });
+    
     SALA.element = {
         init: function() {
             SALA.element.swiper();
@@ -55,7 +62,32 @@ var SALA = SALA || {};
                 });
             });
             // End Isotope
+// navbar js
+$(window).scroll(function () {
+    if ($(window).width() < 992) {
+        if ($(this).scrollTop() > 45) {
+            $('.fixed-top').addClass('bg-dark shadow');
+        } else {
+            $('.fixed-top').removeClass('bg-dark shadow');
+        }
+    } else {
+        if ($(this).scrollTop() > 45) {
+            $('.fixed-top').addClass('bg-dark shadow').css('top', -45);
+        } else {
+            $('.fixed-top').removeClass('bg-dark shadow').css('top', 0);
+        }
+    }
+});
+$(window).on('scroll', function() {
+    if ($(this).scrollTop() > 120) {
+        $('.elkevent-nav').addClass("is-sticky");
+    } else {
+        $('.elkevent-nav').removeClass("is-sticky");
+    }
+});
 
+
+// end navbar js
             // Begin Popup Video
             $(".popup-wrapper").each(function () {
                 $(this).on("click touchstart", ".icon-popup", function (e) {
