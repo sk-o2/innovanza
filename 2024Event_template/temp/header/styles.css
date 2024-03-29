@@ -35,8 +35,9 @@ a:focus {
 
 img {
     max-width: 100%;
+    
 }
-/* 
+
 p {
     line-height: 1.9;
     color: #707070;
@@ -62,7 +63,7 @@ h5,
 h6 {
     font-weight: 700;
     color: #0d1028;
-} */
+}
 
 /*btn btn-primary*/
 .fixed-top {
@@ -93,7 +94,7 @@ h6 {
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--primary);
+    color: #ca861a;
 }
 
 @media (max-width: 991.98px) {
@@ -159,3 +160,7 @@ h6 {
     color:black ;
 }
 
+
+.speakers-image>img{
+max-height:380px;
+}
