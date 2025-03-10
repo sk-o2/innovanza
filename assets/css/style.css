@@ -1360,9 +1360,10 @@ About CSS
 /* start of style update for innovanza logo the above is the prv style  */
 .about-image .about-img1 {
     position: relative;
-    right: -150 px;
+    right: -190px;
+
     top: 50 px;
-    
+    width: 7rem;
 }
 /*end of style update for innovanza logo  */
 .about-image .about-img2 {
@@ -8198,3 +8199,6 @@ Footer Area CSS
     }
 }
 
+.link-hover:hover{
+    color: #f66a00;
+}
