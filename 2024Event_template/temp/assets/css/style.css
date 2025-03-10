@@ -487,7 +487,7 @@ a:hover {
 }
 
 .background-navy {
-  background-color: var(--sala-primary-navy, #0057fc);
+  background-color: var(--sala-primary-navy, #0057c);
 }
 
 .background-navy-2 {
@@ -495,7 +495,7 @@ a:hover {
 }
 
 .background-yellow {
-  background-color: var(--sala-tone-yellow, #c8872a);
+  background-color: var(--sala-tone-yellow, #ff66a00;
 }
 
 .background-red {
