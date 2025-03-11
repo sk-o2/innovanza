@@ -13059,7 +13059,7 @@ form.checkout-coupon input[type=text] {
 @charset "UTF-8";
 body,
 .site-header.alway-dark {
-  --sala-primary-navy: #ca861a;
+  --sala-primary-navy: #f66a00;
   --sala-primary-navy-2: #7527eb;
   --sala-primary-dark: #111111;
   --sala-neutral-dark: #111111;
@@ -13078,7 +13078,7 @@ body,
   --sala-tone-red: #ff1f25;
   --sala-tone-blue: #2355d6;
   --sala-tone-green: #3ab446;
-  --sala-tone-yellow: #ca861a;
+  --sala-tone-yellow: #f66a00;
   --sala-icon-dark: #111111;
   --sala-icon-medium: #dddddd;
   --sala-border-line: #eeeeee;
@@ -13088,7 +13088,7 @@ body,
 body .site-header.sala-dark-scheme, body.sala-dark-scheme,
 .site-header.alway-dark .site-header.sala-dark-scheme,
 .site-header.alway-dark.sala-dark-scheme {
-  --sala-primary-navy: #ca861a;
+  --sala-primary-navy: #f66a00;
   --sala-primary-navy-2: #7527eb;
   --sala-primary-dark: #ffffff;
   --sala-neutral-dark: #ffffff;
@@ -13105,9 +13105,9 @@ body .site-header.sala-dark-scheme, body.sala-dark-scheme,
   --sala-shade-background-3: #e9eaff;
   --sala-shade-background90: rgba(37, 36, 40, 0.9);
   --sala-tone-red: #ff1f25;
-  --sala-tone-blue: #2355d6;
+  --sala-tone-blue: #0591AF;
   --sala-tone-green: #3ab446;
-  --sala-tone-yellow: #ca861a;
+  --sala-tone-yellow: #f66a00;
   --sala-icon-dark: #ffffff;
   --sala-icon-medium: #dddddd;
   --sala-border-line: #333333;
@@ -13880,6 +13880,7 @@ input[type=submit]:hover {
 
 .button-wrap .button {
   margin-right: 24px;
+  
 }
 .button-wrap .button:last-child {
   margin-right: 0;
@@ -13964,8 +13965,8 @@ input[type=submit]:hover {
   border-color: var(--sala-primary-navy, #0057fc);
 }
 .button.fullfield-yellow {
-  background-color: var(--sala-tone-yellow, #ffdd0f);
-  border-color: var(--sala-tone-yellow, #ffdd0f);
+  background-color: var(--sala-tone-yellow, #f66a00);
+  border-color: var(--sala-tone-yellow, #f66a00);
   color: var(--sala-alway-dark, #111111);
 }
 .button.fullfield-yellow:hover {
