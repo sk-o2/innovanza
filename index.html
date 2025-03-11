@@ -29,6 +29,8 @@
     <!-- Responsive CSS -->
     <link rel="stylesheet" href="assets/css/responsive.css">
 
+    
+
     <title>IIC | Innovanza'25</title>
 
     <!-- Favicon -->
@@ -67,8 +69,10 @@
                         <div class="button-box">
                             <a href="#schedule_2024"
                                 class="btn btn-primary">Schedule</a>
-                            <a href="https://www.youtube.com/embed/rGcCqwF_0PA?autoplay=1&rel=0" class="video-btn popup-youtube"><i
-                                    class="icofont-ui-play"></i> Watch Promo Video</a>
+<!--                             <a href="https://www.youtube.com/embed/rGcCqwF_0PA?autoplay=1&rel=0" class="video-btn popup-youtube"><i
+                                    class="icofont-ui-play"></i> Watch Promo Video</a> -->
+                            <a href="https://www.youtube.com/embed/rGcCqwF_0PA?autoplay=1&rel=0" class="video-btn popup-youtube">
+                                <i class="icofont-ui-play"></i> Watch Promo Video</a>
                         </div>
                     </div>
                 </div>
@@ -2264,6 +2268,21 @@
     <!-- Back Top top -->
     <div class="back-to-top">Top</div>
     <!-- End Back Top top -->
+    
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+<script>
+    $(document).ready(function() {
+        $('.popup-youtube').magnificPopup({
+            type: 'iframe',
+            mainClass: 'mfp-fade',
+            removalDelay: 160,
+            preloader: false,
+            fixedContentPos: false
+        });
+    });
+</script>
 
     <!-- JQuery Min JS -->
     <script src="assets/js/jquery.min.js"></script>
