@@ -3290,7 +3290,7 @@ Blog CSS
 }
 
 .single-blog-post .blog-post-content .date {
-    color: #8dc63f;
+    color: #f66a00;
     display: block;
     text-transform: uppercase;
     font-size: 14px;
@@ -3312,7 +3312,7 @@ Blog CSS
 
 .single-blog-post .blog-post-content h3 a:hover,
 .single-blog-post .blog-post-content h3 a:focus {
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-blog-post .blog-post-content p 
@@ -3325,7 +3325,7 @@ Blog CSS
 .single-blog-post .read-more-btn {
     position: relative;
     font-weight: 500;
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-blog-post .read-more-btn:hover {
@@ -3636,7 +3636,7 @@ Page Title CSS
 
 .page-title-area span {
     display: block;
-    color: #FF2D55;
+    color: #f66a00;
     margin-top: 10px;
     font-family: "Oswald", sans-serif;
     font-size: 17px;
