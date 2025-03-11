@@ -137,7 +137,7 @@ h6 {
     position: absolute;
     top: 0;
     width: 51%;
-    background: #FF2D55;
+    background: #f66a00;
     height: 100%;
     z-index: -1;
     -webkit-transition: 0.5s;
@@ -205,7 +205,7 @@ h6 {
     position: absolute;
     top: 0;
     width: 51%;
-    background: #00acee;
+    background: #2abffa;
     height: 100%;
     z-index: -1;
     -webkit-transition: 0.5s;
@@ -269,7 +269,7 @@ h6 {
 }
 
 .section-title span {
-    color: #FF2D55;
+    color: #f66a00;
     font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
@@ -285,7 +285,7 @@ h6 {
 
 .section-title h2 b {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #f66a00 80%);
     font-weight: unset;
     background-size: 100px 1.3em !important;
 }
@@ -316,7 +316,7 @@ h6 {
     position: relative;
     width: 20px;
     height: 4px;
-    background: #FF2D55;
+    background: #f66a00;
     display: block;
 }
 
@@ -331,7 +331,7 @@ h6 {
 
 .section-title .bar::after {
     width: 25px;
-    background: #00acee;
+    background: #0591AF;
     right: -29px;
 }
 
@@ -345,6 +345,7 @@ h6 {
 
 .owl-theme .owl-nav.disabled+.owl-dots {
     margin-top: 0;
+    margin-bottom: 10px;
     line-height: .01;
 }
 
@@ -353,7 +354,7 @@ h6 {
     height: 15px;
     margin: 0 4px;
     background: transparent;
-    border: 1px solid #dfdfdf;
+    border: 3px solid #838383;
     display: block;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -375,8 +376,8 @@ h6 {
 }
 
 .owl-theme .owl-dots .owl-dot.active span {
-    background: #FF2D55;
-    border-color: #FF2D55;
+    background: #f66a00;
+    border-color: #f66a00;
 }
 
 /*form-control*/
@@ -1316,7 +1317,7 @@ About CSS
 }
 
 .about-content span {
-    color: #FF2D55;
+    color: #f66a00;
     font-family: "Oswald", sans-serif;
     letter-spacing: 1px;
     font-size: 16px;
@@ -1332,7 +1333,7 @@ About CSS
 
 .about-content h2 b {
     background: -webkit-gradient(linear, left top, left bottom, color-stop(80%, rgba(0, 0, 0, 0)), color-stop(80%, #FF2D55));
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #FF2D55 80%);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 80%, #f66a00 80%);
     font-weight: unset;
     background-size: 100px 1.3em !important;
 }
@@ -1597,7 +1598,7 @@ Why Choose Us CSS
 
 .single-box .content .icon {
     font-size: 45px;
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-box .content h3 {
@@ -2014,7 +2015,7 @@ Speakers CSS
     width: 0;
     height: 20px;
     color: #ffffff;
-    background: #FF2D55;
+    background: #f66a00;
     position: absolute;
     top: -20px;
     right: 0;
@@ -2037,7 +2038,7 @@ Speakers CSS
     -webkit-transition: 0.5s;
     transition: 0.5s;
     font-family: "Oswald", sans-serif;
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-speakers-box .speakers-content .social {
@@ -2104,13 +2105,13 @@ Speakers CSS
 
 .single-speakers-box:hover::before,
 .single-speakers-box:hover::after {
-    border-color: #FF2D55;
+    border-color: #f66a00;
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
 .single-speakers-box:hover .speakers-content {
-    background: #FF2D55;
+    background: #f66a00;
 }
 
 .single-speakers-box:hover .speakers-content::before {
@@ -2938,7 +2939,7 @@ FunFacts CSS
 
 .col-lg-3:nth-child(3) .single-funfact h3,
 .col-lg-3:nth-child(3) .funFact h3 {
-    color: #efa506;
+    color: #f66a00;
 }
 
 .col-lg-3:nth-child(4) .single-funfact h3,
@@ -3187,7 +3188,7 @@ Partner CSS
     font-weight: 900;
     font-family: "Oswald", sans-serif;
     margin-bottom: 0;
-    color: #FF2D55;
+    color: #f66a00;
     text-transform: uppercase;
 }
 
@@ -3289,7 +3290,7 @@ Blog CSS
 }
 
 .single-blog-post .blog-post-content .date {
-    color: #8dc63f;
+    color: #f66a00;
     display: block;
     text-transform: uppercase;
     font-size: 14px;
@@ -3311,7 +3312,7 @@ Blog CSS
 
 .single-blog-post .blog-post-content h3 a:hover,
 .single-blog-post .blog-post-content h3 a:focus {
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-blog-post .blog-post-content p 
@@ -3324,7 +3325,7 @@ Blog CSS
 .single-blog-post .read-more-btn {
     position: relative;
     font-weight: 500;
-    color: #FF2D55;
+    color: #f66a00;
 }
 
 .single-blog-post .read-more-btn:hover {
@@ -3635,7 +3636,7 @@ Page Title CSS
 
 .page-title-area span {
     display: block;
-    color: #FF2D55;
+    color: #f66a00;
     margin-top: 10px;
     font-family: "Oswald", sans-serif;
     font-size: 17px;
