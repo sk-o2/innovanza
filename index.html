@@ -1944,6 +1944,56 @@
             </div>
         </div>
     </section>
+    <section class="speakers-area-two ptb-120">
+    <div class="container">
+        <div class="section-title">
+            <span>Know Our Speakers</span>
+            <h2>Our Past Speakers</h2>
+            <div class="bar"></div>
+            <div class="bg-title">Speakers</div>
+            <a href="#" class="btn btn-primary">View More Speakers</a>
+        </div>
+
+        <!-- Add Owl Carousel Slider -->
+        <div class="owl-carousel speakers-slider">
+            <!-- Speaker 1 -->
+            <div class="single-speakers-box">
+                <div class="speakers-image">
+                    <img src="assets/img/Sandeep-jain.jpg" alt="Sandeep Jain">
+                </div>
+                <div class="speakers-content">
+                    <h3>Mr. Sandeep Jain</h3>
+                    <span>Founder & CEO, Geeks For Geeks</span>
+                </div>
+            </div>
+
+            <!-- Speaker 2 -->
+            <div class="single-speakers-box">
+                <div class="speakers-image">
+                    <img src="assets/img/Arsh.png" alt="Arsh Goyal">
+                </div>
+                <div class="speakers-content">
+                    <h3>Arsh Goyal</h3>
+                    <span>Public Figure</span>
+                </div>
+            </div>
+
+            <!-- Speaker 3 -->
+            <div class="single-speakers-box">
+                <div class="speakers-image">
+                    <img src="assets/img/mukul-photoaidcom-2x-ai-zoom.png" alt="Mukul K Gupta">
+                </div>
+                <div class="speakers-content">
+                    <h3>Mr. Mukul K Gupta</h3>
+                    <span>Chief Technology Officer at Dynapt</span>
+                </div>
+            </div>
+
+            <!-- Add More Speakers Here -->
+        </div>
+    </div>
+</section>
+
     <!-- End Speakers Area  -->
 
     <!-- Start Pricing Area -->
@@ -2332,6 +2382,32 @@
     <script src="assets/js/contact-form-script.js"></script>
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
+
+    <!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<!-- Include Owl Carousel JS -->
+<script src="assets/js/owl.carousel.min.js"></script>
+
+<script>
+$(document).ready(function(){
+    $(".speakers-slider").owlCarousel({
+        loop: true,
+        margin: 20,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        autoplayHoverPause: true,
+        responsive: {
+            0: { items: 1 },  
+            600: { items: 2 }, 
+            1000: { items: 3 } 
+        }
+    });
+});
+</script>
+
 
 
 
