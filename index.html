@@ -1836,7 +1836,7 @@
                         </div>
                     </div>
                 </div> -->
-             
+ <div class="owl-carousel speakers-carousel">            
                 <div class="col-lg-4 col-md-6">
                     <div class="single-speakers-box">
                         <div class="speakers-image">
@@ -1994,7 +1994,7 @@
                         </div>
                     </div>
                 </div>
-    
+             </div>
             </div>
         </div>
     </section>
@@ -2399,7 +2399,30 @@
     <!-- Main JS -->
     <script src="assets/js/main.js"></script>
 
+<!-- jQuery (necessary for Owl Carousel) -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
+<!-- Owl Carousel JS -->
+<script src="assets/js/owl.carousel.min.js"></script>
+<script>
+    $(document).ready(function(){
+    $(".speakers-carousel").owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        dots: true,
+        autoplay: true,
+        autoplayTimeout: 3000,
+        responsive: {
+            0: { items: 1 },
+            600: { items: 2 },
+            1000: { items: 3 }
+        }
+    });
+});
+
+</script>
+    
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
