@@ -7595,6 +7595,59 @@ FunFacts Area CSS
     font-family: "Oswald", sans-serif;
     color: #ffffff;
 }
+.speakers-slider .single-speakers-box {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.speakers-slider .single-speakers-box img {
+    width: 100%;
+    border-radius: 10px;
+    height: 380px;
+    object-fit: cover;
+}
+
+.speakers-slider .single-speakers-box h3 {
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.speakers-slider .single-speakers-box span {
+    color: #666;
+    font-size: 14px;
+}
+
+/* Owl Carousel Navigation Arrows */
+.owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+}
+
+.owl-nav button {
+    position: absolute;
+    background: rgba(0,0,0,0.5) !important;
+    color: white !important;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.owl-nav .owl-prev {
+    left: -20px;
+}
+
+.owl-nav .owl-next {
+    right: -20px;
+}
+
+.owl-dots {
+    margin-top: 10px;
+}
 
 /*================================================
 Health Testimonial Area CSS
