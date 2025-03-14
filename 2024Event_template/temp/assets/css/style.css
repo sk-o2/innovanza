@@ -13897,8 +13897,8 @@ input[type=submit]:hover {
   color: var(--sala-neutral-white, #ffffff);
 }
 .button-wrap.layout-02 .button.fullfield-dark:hover {
-  background-color: var(--sala-primary-navy, #00fc27);
-  border-color: var(--sala-primary-navy, #00fc27);
+  background-color: var(--sala-primary-navy, #0057fc);
+  border-color: var(--sala-primary-navy, #0057fc);
   color: var(--sala-alway-white, #ffffff);
 }
 .button-wrap.align-center .button-more {
@@ -13956,13 +13956,13 @@ input[type=submit]:hover {
   margin-left: 12px;
 }
 .button.fullfield {
-  background-color: var(--sala-primary-navy, #00fc27);
-  border-color: var(--sala-primary-navy, #00fc27);
+  background-color: var(--sala-primary-navy, #0057fc;
+  border-color: var(--sala-primary-navy, #0057fc;
   color: var(--sala-alway-white, #ffffff);
 }
 .button.fullfield:hover {
-  background-color: var(--sala-tone-blue, #00fc27);
-  border-color: var(--sala-primary-navy, #00fc27);
+  background-color: var(--sala-tone-blue, #0057fc);
+  border-color: var(--sala-primary-navy, #0057fc);
 }
 .button.fullfield-yellow {
   background-color: var(--sala-tone-yellow, #f66a00);
