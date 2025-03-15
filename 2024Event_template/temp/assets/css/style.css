@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body,
 .site-header.alway-dark {
-  --sala-primary-navy: #ff66a00;
+  --sala-primary-navy: #ca861a;
   --sala-primary-navy-2: #7527eb;
   --sala-primary-dark: #111111;
   --sala-neutral-dark: #111111;
@@ -20,7 +20,7 @@ body,
   --sala-tone-red: #ff1f25;
   --sala-tone-blue: #2355d6;
   --sala-tone-green: #3ab446;
-  --sala-tone-yellow: #ff66a00;
+  --sala-tone-yellow: #ca861a;
   --sala-icon-dark: #111111;
   --sala-icon-medium: #dddddd;
   --sala-border-line: #eeeeee;
@@ -30,7 +30,7 @@ body,
 body .site-header.sala-dark-scheme, body.sala-dark-scheme,
 .site-header.alway-dark .site-header.sala-dark-scheme,
 .site-header.alway-dark.sala-dark-scheme {
-  --sala-primary-navy: #ff66a00;
+  --sala-primary-navy: #ca861a;
   --sala-primary-navy-2: #7527eb;
   --sala-primary-dark: #ffffff;
   --sala-neutral-dark: #ffffff;
@@ -49,7 +49,7 @@ body .site-header.sala-dark-scheme, body.sala-dark-scheme,
   --sala-tone-red: #ff1f25;
   --sala-tone-blue: #2355d6;
   --sala-tone-green: #3ab446;
-  --sala-tone-yellow: #ff66a00;
+  --sala-tone-yellow: #ca861a;
   --sala-icon-dark: #ffffff;
   --sala-icon-medium: #dddddd;
   --sala-border-line: #333333;
@@ -495,7 +495,7 @@ a:hover {
 }
 
 .background-yellow {
-  background-color: var(--sala-tone-yellow, #ff66a00);
+  background-color: var(--sala-tone-yellow, #c8872a);
 }
 
 .background-red {
